@@ -138,10 +138,10 @@ def clean_db():
     except:
         return False
 
-CONSUMER_KEY = open('consumer.key', 'r').readline(25)
-CONSUMER_SECRET = open('consumer_secret.key', 'r').readline(50)
-ACCESS_KEY = open('access.key', 'r').readline(50)
-ACCESS_SECRET = open('access_secret.key', 'r').readline(45)
+CONSUMER_KEY = open('consumer.key', 'r').readline().strip()
+CONSUMER_SECRET = open('consumer_secret.key', 'r').readline().strip()
+ACCESS_KEY = open('access.key', 'r').readline().strip()
+ACCESS_SECRET = open('access_secret.key', 'r').readline().strip()
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
