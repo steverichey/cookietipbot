@@ -18,6 +18,7 @@ deej_bng, 15
 kungfusquirrel, 15
 drcandland, 15
 urkmcgurk, 15
-stvr_tweets, 319
 bungie, 15
-Syfaro, 10
+Syfaro, 12
+stvr_tweets, 314
+syfaro, 15
